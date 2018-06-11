@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+<com.bway.chenyibai_zhoukaoyi.MyTitleView
+    android:id="@+id/mytitle"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:text_title="大家都在搜"
+    >
+
+
+</com.bway.chenyibai_zhoukaoyi.MyTitleView>
+
+
+<com.bway.chenyibai_zhoukaoyi.FlowLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+ <TextView
+     android:id="@+id/t1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="面试"
+    android:textColor="#fff895"
+     android:gravity="center"
+     />
+
+ <TextView
+     android:id="@+id/t2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Studio3"
+     android:textColor="#ffff89"
+     android:gravity="center"
+     />
+
+ <TextView
+     android:id="@+id/t3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="动画"
+     android:textColor="#ff8596"
+     android:gravity="center"
+     />
+
+ <TextView
+     android:id="@+id/t4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="自定义View"
+     android:textColor="#0099ff"
+     />
+ <TextView
+     android:id="@+id/t5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="性能优化  速度"
+     android:textColor="#0099ff"
+     android:gravity="center"
+     />
+
+
+ <TextView
+     android:id="@+id/t6"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="gradle"
+     android:textColor="#ffff89"
+     android:gravity="center"
+     />
+
+ <TextView
+     android:id="@+id/t7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Camera相机"
+     android:textColor="#ff56ff"
+     android:gravity="center"
+     />
+
+ <TextView
+     android:id="@+id/t8"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="代码混淆   安全"
+     android:textColor="#8956ff"
+     android:gravity="center"
+     />
+
+
+ <TextView
+     android:id="@+id/t9"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="逆向 加固"
+     android:textColor="#8956ff"
+     android:gravity="center"
+     />
+
+
+</com.bway.chenyibai_zhoukaoyi.FlowLayout>
+
+
+
+
+</LinearLayout>
